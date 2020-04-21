@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_CriminalActivity">
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="kamir suday"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="amir kher"
+        android:textSize="20dp"
+        android:layout_below="@id/a1"
+        />
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="shriman yadav"
+        android:textSize="20dp"
+        android:layout_below="@id/a2"
+        />
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="Ajmal kasab"
+        android:textSize="20dp"
+        android:layout_below="@id/a3"
+        />
+
+
+
+
+</RelativeLayout>

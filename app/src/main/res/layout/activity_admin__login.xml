@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff"
+    >
+
+    <RelativeLayout
+        android:layout_width="420dp"
+        android:layout_height="300dp"
+        android:background="@drawable/curveshape">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADMIN LOGIN"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELOME"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="25dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/dcb" />
+    </RelativeLayout>
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="11dp"
+        android:layout_height="13dp"
+        android:backgroundTint="#000"
+        android:secondaryProgressTint="#000"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="320dp"/>
+
+    <EditText
+        android:id="@+id/adminemail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:hint="Email Address"
+        android:textColorHint="#C2B6B6"
+        android:inputType="textEmailAddress" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_person_black_24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        />
+
+    <EditText
+        android:id="@+id/adminpassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColorHint="#C2B6B6"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="360dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/key"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColorHint="#C2B6B6"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="420dp"
+        android:inputType="numberPassword"
+        android:hint="Passkey" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_vpn_key_black_24dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="420dp"
+        />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_lock_black_24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        />
+
+    <Button
+        android:id="@+id/adminlogin"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="55dp"
+        android:background="#7782e6"
+        android:layout_marginTop="480dp"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/forget_password"
+        android:layout_width="261dp"
+        android:layout_height="18dp"
+        android:textColor="#665D5D"
+        android:textStyle="bold"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="530dp"
+        android:text="FORGOT PASSWORD"></TextView>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000"
+        android:secondaryProgressTint="#000"
+        android:layout_centerInParent="true"/>
+
+
+
+
+
+</RelativeLayout>

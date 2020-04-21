@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/criminal"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Criminal Details"
+            android:textSize="15dp"
+
+            />
+        <TextView
+            android:id="@+id/criminal_name"
+            android:layout_below="@+id/criminal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Criminal full name"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:id="@+id/t1"
+            android:layout_below="@+id/criminal_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            />
+
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_below="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Gender"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/t2"
+            android:layout_below="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:hint="Male/Female"/>
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_below="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Age"
+            android:inputType="number"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/t3"
+            android:layout_below="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_below="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Mobile No"
+            android:inputType="number"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/t4"
+            android:layout_below="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/Address"
+            android:layout_below="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Address"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/t5"
+            android:layout_below="@+id/Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/AlternateAddress"
+            android:layout_below="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Police Station"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/t6"
+            android:layout_below="@+id/AlternateAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/PastCrimeRecord"
+            android:layout_below="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Past Crime Record"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/t7"
+            android:layout_below="@+id/PastCrimeRecord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/AddCriminal"
+            android:layout_below="@+id/t7"
+            android:text="Add Criminal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_SettingActivity"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update info"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/up"
+        android:paddingTop="100dp"
+        android:text="police station"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/stationname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a1" />
+    <Button
+        android:id="@+id/station_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_below="@+id/stationname"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
