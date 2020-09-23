@@ -1,3 +1,2 @@
 # Digital_Crime_Bureau_app
-my project
-won 3re prices in gcek hackathon
+A multi user android application for the problem statement given by the National Crime Records Bureau in SIH 2020.Tech stack used in this project is Android and Firebase as DataStorage
