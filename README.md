@@ -1,5 +1,5 @@
 # Digital_Crime_Bureau_app
-A multi user android application for the problem statement given by the National Crime Records Bureau in SIH 2020.Tech stack used in this project is Android and Firebase as DataStorage
+A multi user android application for the problem statement given by the National Crime Records Bureau in SIH 2020.Tech stack used in this project is Android and Firebase as DataStorage.
 
 Screen Shots
 
@@ -8,4 +8,5 @@ Screen Shots
  ![user](https://user-images.githubusercontent.com/46351652/94019763-c4cc4380-fdcf-11ea-9a63-d46cd39a0065.jpg)
  ![NOC_form](https://user-images.githubusercontent.com/46351652/97830397-d10ebf00-1cf2-11eb-893d-781d926a8b91.png)
 
-<iframe src="https://drive.google.com/file/d/1jrQdkyM5lw5EMLs3MFsSVnI9oh5Zom0q/preview" width="640" height="480"></iframe>
+Video Preview link:-
+https://drive.google.com/file/d/1jrQdkyM5lw5EMLs3MFsSVnI9oh5Zom0q/preview
